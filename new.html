@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>complete responsive food website design tutorial</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo">
+        <i class="fas fa-utensils"></i>
+        The Grilled Prawn
+      </a>
+      <div id="menu-bar" class="fas fa-bars"></div>
+      <nav class="navbar">
+        <a href="#recipes">RECIPES</a>
+        <a href="#drinks">DRINKS</a>
+        <a href="#decorations">DECORATIONS</a>
+        <a href="#about">ABOUT THE GRILLED PRAWN</a>
+      </nav>
+    </header>
+
+    <section class="home" id="home ">
+      <div class="image">
+        <img src="./images/recipe1.jpg" alt="recipe" />
+      </div>
+      <div class="content">
+        <h5>LATEST RECIPE</h5>
+        <h3>Baked Polenta With Cheese and Mushrooms.</h3>
+        <p>
+          Polenta, goat cheese ,italian sausage,and cermini mushrooms,all
+          together,this will make for pretty darn good side dish to a lovely
+          salad. Go for it.
+        </p>
+        <a class="btn" href="#">
+          Go to recipe <i class="fas fa-long-arrow-alt-right"></i>
+        </a>
+      </div>
+    </section>
+
+    <section class="recipe">
+      <div class="our_recipe">Our Recipes</div>
+      <div class="filtering">
+        <div class="filt_box">
+          <div class="filter_top">
+            <div class="filter_title">Filter recipes By</div>
+            <div class="filter_icon">
+              <i class="fas fa-minus"></i>
+            </div>
+          </div>
+          <div class="filter_bottom">
+            <div>Food Type:</div>
+            <div>
+              <input type="radio" id="scales" name="scales" />
+              <label for="appitisers">Appitisers</label>
+            </div>
+            <div>
+              <input type="radio" id="scales" name="scales" />
+              <label for="mains">Mains</label>
+            </div>
+            <div>
+              <input type="radio" id="scales" name="scales" />
+              <label for="deserts">Deserts</label>
+            </div>
+            <div>
+              <input type="radio" id="scales" name="scales" />
+              <label for="specialoccations">Specialoccations</label>
+            </div>
+          </div>
+        </div>
+        <div class="sorting">
+          <div class="sort">
+            <div class="sort_left">
+              Sort By
+              <select name="sort" id="sort" class="selectId">
+                <option value="newFirst">newest first</option>
+              </select>
+            </div>
+            <div class="search">
+              <i class="fas fa-search searchIcon"></i>
+              search recipes
+            </div>
+          </div>
+          <div class="sort_nationality">
+            <div class="nationality_title">Nationality:</div>
+            <div class="nationality_content">
+              <div class="nationality_content1">
+                <div>
+                  <input type="radio" id="scales" name="scales" />
+                  <label for="mains">Italian(34)</label>
+                </div>
+                <div>
+                  <input type="radio" id="scales" name="scales" />
+                  <label for="mains">French(30)</label>
+                </div>
+                <div>
+                  <input type="radio" id="scales" name="scales" />
+                  <label for="mains">Spanish(22)</label>
+                </div>
+                <div>
+                  <input type="radio" id="scales" name="scales" />
+                  <label for="mains">Peruvian(3)</label>
+                </div>
+              </div>
+              <div class="nationality_content2">
+                <div>
+                  <input type="radio" id="scales" name="scales" />
+                  <label for="mains">Chinese(18)</label>
+                </div>
+                <div>
+                  <input type="radio" id="scales" name="scales" />
+                  <label for="mains">Indian(13)</label>
+                </div>
+                <div>
+                  <input type="radio" id="scales" name="scales" />
+                  <label for="mains">Thai(10)</label>
+                </div>
+                <div>
+                  <input type="radio" id="scales" name="scales" />
+                  <label for="mains">Norwaegian(4)</label>
+                </div>
+              </div>
+              <div class="nationality_content3">
+                <div>
+                  <input type="radio" id="scales" name="scales" />
+                  <label for="mains">Polish(2)</label>
+                </div>
+                <div>
+                  <input type="radio" id="scales" name="scales" />
+                  <label for="mains">Danish(3)</label>
+                </div>
+                <div>
+                  <input type="radio" id="scales" name="scales" />
+                  <label for="mains">Belgian(7)</label>
+                </div>
+                <div>
+                  <input type="radio" id="scales" name="scales" />
+                  <label for="mains">Persian(13)</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="speciality" id="speciality">
+      <div class="box-container">
+        <div class="box">
+          <div class="box_content">
+            <div class="box_content_txt">
+              <div class="content_date">5th march 2016</div>
+              <div class="content_nationality">thai</div>
+            </div>
+            <div class="content_title">
+              Thai Yellow Curry Noodles with Shiltake Mushrooms
+            </div>
+          </div>
+          <div class="box_img">
+            <img
+              src="./images/recipe1.jpg"
+              alt="rec 2"
+              style="width: 100%; height: 220px"
+            />
+          </div>
+        </div>
+        <div class="box">
+          <div class="box_content">
+            <div class="box_content_txt">
+              <div class="content_date">17th march 2016</div>
+              <div class="content_nationality">italian</div>
+            </div>
+            <div class="content_title">
+              Cappellini with Cherry Tamotes and Fresh Basil
+            </div>
+          </div>
+          <div class="box_img">
+            <img
+              src="./images/recipe2.png"
+              alt="rec 2"
+              style="width: 100%; height: 220px"
+            />
+          </div>
+        </div>
+        <div class="box">
+          <div class="box_content">
+            <div class="box_content_txt">
+              <div class="content_date">4th april 2016</div>
+              <div class="content_nationality">italian</div>
+            </div>
+            <div class="content_title">
+              Baked Turkey Sausage and Mascarpone Stuffed Shells
+            </div>
+          </div>
+          <div class="box_img">
+            <img
+              src="./images/recipe3.png"
+              alt="rec 2"
+              style="width: 100%; height: 220px"
+            />
+          </div>
+        </div>
+        <div class="box">
+          <div class="box_content">
+            <div class="box_content_txt">
+              <div class="content_date">24th may 2016</div>
+              <div class="content_nationality">italian</div>
+            </div>
+            <div class="content_title">Caremelised Apple and Herb Flochi</div>
+          </div>
+          <div class="box_img">
+            <img
+              src="./images/recipe4.png"
+              alt="rec 2"
+              style="width: 100%; height: 220px"
+            />
+          </div>
+        </div>
+        <div class="box">
+          <div class="box_content">
+            <div class="box_content_txt">
+              <div class="content_date">25th may 2016</div>
+              <div class="content_nationality">spanish</div>
+            </div>
+            <div class="content_title">Pumpkin Beer CHeese Soup</div>
+          </div>
+          <div class="box_img">
+            <img
+              src="./images/recipe5.png"
+              alt="rec 2"
+              style="width: 100%; height: 220px"
+            />
+          </div>
+        </div>
+        <div class="box">
+          <div class="box_content">
+            <div class="box_content_txt">
+              <div class="content_date">22th september 2016</div>
+              <div class="content_nationality">thai</div>
+            </div>
+            <div class="content_title">
+              Yum Woon Sen with Shrimp (Glass noodles salad with Shrimp)
+            </div>
+          </div>
+          <div class="box_img">
+            <img
+              src="./images/recipe6.png"
+              alt="rec 2"
+              style="width: 100%; height: 220px"
+            />
+          </div>
+        </div>
+        <div class="box">
+          <div class="box_content">
+            <div class="box_content_txt">
+              <div class="content_date">14th march 2016</div>
+              <div class="content_nationality">thai</div>
+            </div>
+            <div class="content_title">Beef Satay</div>
+          </div>
+          <div class="box_img">
+            <img
+              src="./images/recipe7.png"
+              alt="rec 2"
+              style="width: 100%; height: 220px"
+            />
+          </div>
+        </div>
+        <div class="box">
+          <div class="box_content">
+            <div class="box_content_txt">
+              <div class="content_date">29th october 2016</div>
+              <div class="content_nationality">french</div>
+            </div>
+            <div class="content_title">
+              Creamy French Onion Soup Dip in a Bread Bowl
+            </div>
+          </div>
+          <div class="box_img">
+            <img
+              src="./images/recipe8.png"
+              alt="rec 2"
+              style="width: 100%; height: 220px"
+            />
+          </div>
+        </div>
+        <div class="box">
+          <div class="box_content">
+            <div class="box_content_txt">
+              <div class="content_date">11th november 2016</div>
+              <div class="content_nationality">spanish</div>
+            </div>
+            <div class="content_title">Bocadillo Bites</div>
+          </div>
+          <div class="box_img">
+            <img
+              src="./images/recipe9.png"
+              alt="rec 2"
+              style="width: 100%; height: 220px"
+            />
+          </div>
+        </div>
+        <div class="box">
+          <div class="box_content">
+            <div class="box_content_txt">
+              <div class="content_date">12th november 2016</div>
+              <div class="content_nationality">spanish</div>
+            </div>
+            <div class="content_title">Paella</div>
+          </div>
+          <div class="box_img">
+            <img
+              src="./images/recipe10.png"
+              alt="rec 2"
+              style="width: 100%; height: 220px"
+            />
+          </div>
+        </div>
+        <div class="box">
+          <div class="box_content">
+            <div class="box_content_txt">
+              <div class="content_date">24th december 2016</div>
+              <div class="content_nationality">thai</div>
+            </div>
+            <div class="content_title">Spicy Black Bean Burger</div>
+          </div>
+          <div class="box_img">
+            <img
+              src="./images/recipe11.png"
+              alt="rec 2"
+              style="width: 100%; height: 220px"
+            />
+          </div>
+        </div>
+        <div class="box">
+          <div class="box_content">
+            <div class="box_content_txt">
+              <div class="content_date">9th january 2017</div>
+              <div class="content_nationality">italian</div>
+            </div>
+            <div class="content_title">Fresh Fig and Pistchio salad</div>
+          </div>
+          <div class="box_img">
+            <img
+              src="./images/recipe3.png"
+              alt="rec 2"
+              style="width: 100%; height: 220px"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="returntotop">
+        <i class="far fa-angle-up"></i>Return to the top
+      </div>
+    </section>
+
+    <section class="order" id="order">
+      <div class="row">
+        <h1>Spread The Word!</h1>
+        <p>
+          Our recipes are awesome,sign up to our newsteller and invite friends
+          to join the grilled prawn cult
+        </p>
+        <form action="">
+          <div class="inputBox1">
+            <div class="form_input">
+              <label for="name">Name</label>
+              <input type="text" placeholder="name" />
+            </div>
+            <div class="form_input">
+              <label for="name">Surname</label>
+              <input type="text" placeholder="Surname" />
+            </div>
+            <div class="form_input">
+              <label for="email">Email</label>
+              <input type="email" placeholder="email" />
+            </div>
+            <div class="btn">
+              <button><i class="fas fa-trash"></i> Remove</button>
+            </div>
+          </div>
+
+          <div class="inputBox2">
+            <div class="form_input">
+              <label for="name">Name</label>
+              <input type="text" placeholder="name" />
+            </div>
+            <div class="form_input">
+              <label for="name">Surname</label>
+              <input type="text" placeholder="Surname" />
+            </div>
+            <div class="form_input">
+              <label for="email">Email</label>
+              <input type="email" placeholder="email" />
+            </div>
+            <div class="btn add_friend">
+              <button>Add Friend</button>
+            </div>
+          </div>
+          <div class="send btn">
+            <button>Send<i class="fas fa-arrow-right"></i></button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer" id="speciality">
+      <div class="footer-container">
+        <div class="footer-content">
+          <div class="content_title">
+            <h3>Our Recipes</h3>
+          </div>
+          <p>
+            all our recipes are tested thoroughly by us to make sure theyr'e
+            suitable for your kitchen at home we know many of your concerned
+            about healthy eating so we send them to a qualified nutritions for
+            sorrow analysis too
+          </p>
+        </div>
+        <div class="footer-content">
+          <div class="content_title">
+            <h3>Grilled Prawn's History</h3>
+          </div>
+          <p>the grilled prawn is a fictional blog created in january 2015.</p>
+        </div>
+        <div class="footer-content">
+          <div class="content_title">
+            <h3>Tips and Tricks</h3>
+          </div>
+          <p>
+            not sure how to do something?dont panic. we have plenty of tutrials
+            for you.
+          </p>
+          <p style="color: red">learn more</p>
+        </div>
+        <div class="footer-content">
+          <div class="content_title">
+            <h3>Help and Contact</h3>
+            we are always happy to try new things.send us your suggetions
+            <p>struggling with one of the recipes?</p>
+            <p style="color: red">send us an email</p>
+          </div>
+        </div>
+        <div class="footer-content">
+          <div class="content_title">
+            <h3>&copy;The Grilled Prawns</h3>
+          </div>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores
+            saepe odio ratione id dolores beatae impedit officiis, ducimus
+            voluptas! Architecto cum repellendus molestiae! Qui deleniti tempora
+            iste natus exercitationem dignissimos!
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
